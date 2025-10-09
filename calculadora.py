@@ -1,11 +1,9 @@
-print("Calculadora de Média")
-num1 = float (input("Digite sua nota do primeiro trimestre:  "))
-num2 = float (input("Digite sua nota do segundo trimestre:  "))
-num3 = float (input("Digite sua nota do terceiro trimestre:  "))
-premedia = num1 + num2 + num3
-media = premedia / 3
+print("Prova de Introdução a Programação")
 
-if media >= 7:
-    print(f"Paranéns sua média é {media} você passou de ano")
-else: 
-    print(f"Sua media é {media}você foi reprovado")
+print("Vamos multiplicar 2 numeros!")
+num1 = float(input("digite o 1° numero:  "))
+num2 = float(input("digite o 2° numero:  "))
+
+
+multiplique = num1 * num2
+print(f"soma de {num1} e {num2} e {multiplique}.")
